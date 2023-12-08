@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Dane komputerowe/Dane procesorów Timur Humennyi 2K GR1</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      border: 2px solid #000000; /* 2 razy grubsze obramowanie */
+    }
+
+    th, td {
+      border: 2px solid #000000; /* 2 razy grubsze obramowanie */
+      padding: 10px; /* wewnętrzny odstęp komórek */
+      text-align: center;
+    }
+
+    th {
+      background-color: #FF0000; /* kolor tła nagłówka */
+      color: #FFFFFF; /* kolor tekstu w nagłówku */
+      font-size: 16px; /* wielkość czcionki w nagłówku */
+    }
+
+    tr:nth-child(even) {
+      background-color: #FFC0CB; /* kolor tła parzystych wierszy */
+    }
+
+    tr:nth-child(odd) {
+      background-color: #FFA07A; /* kolor tła nieparzystych wierszy */
+    }
+
+    caption {
+      text-align: center;
+      font-size: 18px; /* wielkość czcionki w tytule tabeli */
+      margin-bottom: 10px;
+      background-color: #A00000; /* kolor tła tytułu */
+      color: #FFFFFF; /* kolor tekstu w tytule */
+      padding: 10px; /* wewnętrzny odstęp tytułu */
+      font-weight: bold; /* pogrubienie tekstu w tytule */
+      font-size: 48px; /* zwiększona wielkość czcionki (3 razy) */
+    }
+
+    .model-procesora {
+      color: #AA0000; /* kolor tekstu */
+      font-weight: bold; /* pogrubienie tekstu */
+      font-style: italic; /* kursywa */
+      font-family: 'Arial', sans-serif; /* zmiana czcionki */
+    }
+
+    .odblokowany-mnoznik {
+      color: #FF3333; /* jasnoczerwony kolor tekstu oznaczający "Tak" */
+      font-weight: bold; /* pogrubienie tekstu */
+      font-size: 72px; /* zwiększona wielkość czcionki (4 razy) */
+    }
+
+    .podzialka {
+      background-color: #A00000; /* kolor tła podziałki */
+      color: #FFFFFF; /* kolor tekstu podziałki */
+      font-weight: bold; /* pogrubienie tekstu podziałki */
+      text-align: center;
+      padding: 10px; /* wewnętrzny odstęp podziałki */
+    }
+
+    .blue-text {
+      color: #0000FF; /* niebieski kolor tekstu */
+      font-weight: bold; /* pogrubienie tekstu */
+      font-style: italic; /* kursywa */
+    }
+
+    .orange-text {
+      color: #7C0000; /* pomarańczowy kolor tekstu */
+      text-align: left; /* wyprostowanie tekstu do lewej strony */
+    }
+  </style>
+</head>
+<body>
+
+<table>
+  <div class="podzialka">Dane komputerowe/Dane procesorów Timur Humennyi 2K GR1</div>
+  <thead>
+    <tr>
+      <th class="podzialka">Model procesora</th>
+      <th>Taktowanie rdzenia</th>
+      <th>Liczba rdzeni fizycznych</th>
+      <th>Liczba wątków</th>
+      <th class="orange-text">Pobór mocy (TDP)</th>
+      <th class="blue-text">Odblokowany mnożnik</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="model-procesora">Ryzen 5 2600</td>
+      <td class="orange-text">3.4 GHz</td>
+      <td>6 rdzeni</td>
+      <td>12 wątków</td>
+      <td class="blue-text">65 W</td>
+      <td rowspan="6" class="odblokowany-mnoznik">Tak</td>
+    </tr>
+    <tr>
+      <td class="model-procesora">Ryzen 5 3600</td>
+      <td class="orange-text">3.6 GHz</td>
+      <td>6 rdzeni</td>
+      <td>12 wątków</td>
+      <td class="blue-text">65 W</td>
+    </tr>
+    <tr>
+      <td class="model-procesora">Ryzen 5 5600</td>
+      <td class="orange-text">3.5 GHz</td>
+      <td>6 rdzeni</td>
+      <td>12 wątków</td>
+      <td class="blue-text">65 W</td>
+    </tr>
+    <tr>
+      <td class="model-procesora">Ryzen 7 2700X</td>
+      <td class="orange-text">3.7 GHz</td>
+      <td>8 rdzeni</td>
+      <td>16 wątków</td>
+      <td class="blue-text">105 W</td>
+    </tr>
+    <tr>
+      <td class="model-procesora">Ryzen 7 3700X</td>
+      <td class="orange-text">3.6 GHz</td>
+      <td>8 rdzeni</td>
+      <td>16 wątków</td>
+      <td class="blue-text">65 W</td>
+    </tr>
+    <tr>
+      <td class="model-procesora">Ryzen 7 5800X</td>
+      <td class="orange-text">3.8 GHz</td>
+      <td>8 rdzeni</td>
+      <td>16 wątków</td>
+      <td class="blue-text">105 W</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="podzialka">Dane procesorów AMD</div>
+
+</body>
+</html>
